@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-color: #a9def9;*/
+  background-image: url(toy-2561392_1920.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: #8eecf5;
+  font-size: 4rem;
+  text-shadow: black 10px 2px 5px;
+  text-decoration: overline black 10px;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #ffffc7;
+}
+
+.box:hover {
+  border: solid black 2px;
+  transition: 2s;
+  cursor: url(write.png),auto;
+}
+
+#reset-btn:not(:hover) {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: solid white 1px;
+  transition: 2s;
+} 
+
+#reset-btn:hover {
+  padding: 1rem;
+  font-size: 1.3rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 2s;
+  border: solid black 1px;
+  border-radius: 2rem;
+}
+
+
+#new-btn:not(:hover) {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: solid white 1px;
+  transition: 2s;
+} 
+
+#new-btn:hover {
+  padding: 1rem;
+  font-size: 1.3rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 2s;
+  border: solid black 1px;
+  border-radius: 2rem;
+}
+
+/*#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+}*/
+
+
+#msg {
+  color: #41d3bd;
+  font-size: 4rem;
+  text-shadow: black 10px 2px 5px;
+  text-decoration: overline black 10px;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
